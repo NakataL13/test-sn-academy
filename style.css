@@ -1,0 +1,275 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.header-element {
+    background-color: #000000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.li-item {
+    color: white;
+    font-size: 1.2em;
+    transition: 0.1s ease-in-out;
+    margin: 1em;
+}
+.li-item:hover {
+    color: gainsboro;
+    transition: 0.1s ease-in-out;
+}
+.nav-right-side {
+    margin-right: 2rem;
+}
+.nav-btn {
+    background-color: #0057A5;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.1em;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+.nav-sign-in-btn {
+    background-color: #2A2A2A;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.1em;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* PRE-MAIN */
+
+.pre-main-element {
+    margin: 4rem auto 1rem auto;
+    width: 550px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.pre-main-para {
+    text-align: center;
+    color: gainsboro;
+    font-weight: bold;
+}
+
+/* TOP-BANNER */
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #000000;
+    color: white;
+    padding: 2rem;
+}
+.top-banner-name {
+    color: gainsboro;
+    font-size: 0.8em;
+}
+.top-banner-h1s {
+    font-size: 1.5em;
+}
+
+.top-banner-btn {
+    background-color: #0057A5;
+    color: white;
+    padding: 0.5em  1em ;
+    border-radius: 6px;
+    font-size: 1.5em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* HERO */
+
+.hero {
+    border-top: 1px solid black;
+    margin: 3rem auto 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+.hero-info {
+    flex-basis: 50%;
+}
+.hero-img-holder {
+    margin-top: 3rem;
+}
+.hero-h6 {
+    font-size: 0.7em;
+
+}
+.hero-h1 {
+    font-size: 3em;
+}
+.hero-p {
+    font-size: 0.9em;
+    color: gray;
+}
+.hero-written-by {
+    font-size: 0.7em;
+}
+
+/* FOOTER */
+
+.footer-element {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    color: grey;
+    background-color: #000000;
+    padding: 1rem;
+    
+}
+
+
+
+
+/* NEWS PAGE */
+.news-title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem 0;
+}
+.news-card {
+    margin: 3rem auto 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid gainsboro;
+    padding: 1rem;
+    width: 60%;
+}
+.news-card-info {
+    margin-right: 1rem;
+}
+
+.news-card-title > a {
+    font-size: 2.3em;
+    font-weight: bold;
+    color: black;
+    transition: 0.1s ease-in-out;
+}
+.news-card-title > a:hover {
+    color: #0057A5;
+}
+.news-short-desc {
+    color: gray;
+    width: 70%;
+}
+.news-editor {
+    font-size: 0.8em;
+}
+
+/* TEAM SECTION */
+
+.team-title {
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+}
+
+.team-member {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    border-bottom: 1px solid gainsboro;
+}
+.team-member-article-name {
+    border-right: 2px solid black;
+    padding-right: 2rem;
+}
+.team-member-article-info {
+    flex-basis: 60%;
+}
+.team-member-skills {
+    list-style-type: disc;
+}
+
+/* ABOUT SECTION */
+
+.about-title {
+    text-align: center;
+    margin: 2rem auto;
+}
+.about-short-info {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.about-short-titles > h3 {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.about-info {
+    width: 60%;
+    margin: 6rem auto 2rem auto;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.1em;
+    color: grey;
+}
+
+
+/* SCRIPTS */
+
+.function {
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    width: 20%;
+    padding: 2rem;
+    color: black;
+    border-radius: 6px;
+}
+.btn {
+    margin: 1.3rem 0;
+    font-size: 1.2em;
+    background-color: #0057A5;
+    color: white;
+    padding: 0.5rem 0.7rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+#input-el,
+#input-el-palindrome {
+    border: none;
+    border-radius: 8px;
+    padding: 0.3rem;
+}
