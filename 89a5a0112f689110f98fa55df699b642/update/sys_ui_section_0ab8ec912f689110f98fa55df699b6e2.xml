@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0ab8ec912f689110f98fa55df699b6e2" sys_domain="global" table="x_842885_event_app_my_event_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 13:31:45</sys_created_on>
+            <sys_id>f7757c112fa89110f98fa55df699b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842885_event_app_my_event_table" sys_domain="global" view="Default view">0ab8ec912f689110f98fa55df699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 13:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 13:31:45</sys_created_on>
+            <sys_id>7f757c112fa89110f98fa55df699b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842885_event_app_my_event_table" sys_domain="global" view="Default view">0ab8ec912f689110f98fa55df699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 13:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 13:31:45</sys_created_on>
+            <sys_id>ff757c112fa89110f98fa55df699b686</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842885_event_app_my_event_table" sys_domain="global" view="Default view">0ab8ec912f689110f98fa55df699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 13:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_of_event</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 13:31:45</sys_created_on>
+            <sys_id>73757c112fa89110f98fa55df699b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842885_event_app_my_event_table" sys_domain="global" view="Default view">0ab8ec912f689110f98fa55df699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 13:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 13:31:45</sys_created_on>
+            <sys_id>f3757c112fa89110f98fa55df699b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842885_event_app_my_event_table" sys_domain="global" view="Default view">0ab8ec912f689110f98fa55df699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 13:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>proposed_by</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 13:31:45</sys_created_on>
+            <sys_id>77757c112fa89110f98fa55df699b687</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_842885_event_app_my_event_table" sys_domain="global" view="Default view">0ab8ec912f689110f98fa55df699b6e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 13:31:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_842885_event_app_my_event_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-06 12:35:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ab8ec912f689110f98fa55df699b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_842885_event_app_my_event_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Event Application" source="x_842885_event_app">89a5a0112f689110f98fa55df699b642</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Event Application">89a5a0112f689110f98fa55df699b642</sys_scope>
+            <sys_update_name>sys_ui_section_0ab8ec912f689110f98fa55df699b6e2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-06 12:35:55</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
