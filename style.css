@@ -101,7 +101,53 @@ a {
     font-weight: bold;
 }
 
+.top-banner-btn-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
+.close-add {
+    align-self: flex-end;
+    margin-bottom: 10rem;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+.close-add:hover {
+    color: #0057A5;
+    transition: 0.1s ease-in-out;
+}
+
+.hide {
+    display: none;
+    
+}
+
+.closed-add {
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+.hide-closed-add {
+    display: block;
+}
+
+
+.select-element {
+    border: none;
+    background-color: #2A2A2A;
+    color: white;
+    padding: 0.5rem 0.3rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.rate-add {
+    font-size: 1.3em;
+    font-family:Arial, Helvetica, sans-serif
+}
 /* HERO */
 
 .hero {

@@ -18,11 +18,13 @@ var inputEl = document.getElementById("input-el")
 }
 
 function evenOccurences(){
-    var inputEvenEl = document.getElementById("input-el-even")
+    var inputEvenEl = document.getElementById("input-el-even").value
     var outputEvenEl = document.getElementById("output-el-even")
     var final = {}
     if(inputEvenEl.length <= 0){
-        outputEvenEl.innerHTML = '<p>""</p>'
+        
+        outputEvenEl.innerHTML = 'Invalid input'
+        return
     }
     for(var i=0; i<inputEvenEl.length;i++){
         if(!final[inputEvenEl[i]]){
@@ -34,10 +36,11 @@ function evenOccurences(){
     for(var key in final){
         var counter = final[key]
         if(counter % 2 == 1){
-            outputEvenEl.innerHTML = '<p>"false"</p>'
+            outputEvenEl.innerHTML = 'false'
+            return
         }
     }
-    outputEvenEl.innerHTML = '<p>"true"</p>'
+    outputEvenEl.innerHTML = 'true'
 }
 
 function palindrome(){
@@ -45,12 +48,24 @@ function palindrome(){
     var outputEl = document.getElementById("output-el-palindrome")
     var reversedInput = inputElement.split("").reverse().join("")
     if(inputElement === reversedInput){
-        outputEl.innerHTML = '<p>'+inputElement+' "is a plaindrome"</p>'
+        outputEl.innerHTML = '<p>'+inputElement+' is a plaindrome</p>'
     }else {
-        outputEl.innerHTML = '<p>'+inputElement+' "is NOT a plaindrome"</p>'
+        outputEl.innerHTML = '<p>'+inputElement+' is NOT a plaindrome</p>'
 
     }
 }
+
+var closeBtn = document.querySelector(".close-add")
+var adBanner = document.querySelector(".top-banner")
+closeBtn.addEventListener("click", function() {
+    adBanner.classList.toggle("hide")
+    var closedAd = document.querySelector(".closed-add")
+    if(adBanner.style.display = "none"){
+        closedAd.classList.toggle("hide-closed-add")
+    }
+
+})
+
 
 
 
